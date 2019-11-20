@@ -210,6 +210,10 @@ ui <- dashboardPage(skin = 'green',
                                                    value = 0.95),
                                       actionButton(inputId = "go",
                                                    label = "Update"),
+                                      h5("Model1: Linear variables"),
+                                      h5("Model2: Linear + Quadratic Variables"),
+                                      h6("All after AIC bidirectional"),
+                                      
                                       hr()
                                       
                                       
