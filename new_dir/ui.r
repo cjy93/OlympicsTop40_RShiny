@@ -212,6 +212,7 @@ ui <- dashboardPage(skin = 'green',
                                                    label = "Update"),
                                       h5("Model1: Linear variables"),
                                       h5("Model2: Linear + Quadratic Variables"),
+                                      h5("Model3: Linear + Quadratic + Interactive Variables"),
                                       h6("All after AIC bidirectional"),
                                       
                                       hr()
